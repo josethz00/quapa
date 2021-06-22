@@ -1,0 +1,12 @@
+{
+  "C_Cpp.errorSquiggles": "Disabled",
+  "files.associations": {
+    ".sequelizerc": "javascript",
+    ".stylelintrc": "json",
+    ".prettierrc": "json",
+    "*.tsx": "typescriptreact",
+    "lexer.h": "c",
+    "errors.h": "c",
+    "shell.h": "c"
+  }
+}
