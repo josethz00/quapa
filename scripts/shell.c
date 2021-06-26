@@ -9,10 +9,10 @@ void shell() {
     fgets(text, 4096, stdin);
     tuple lexerGeneratedTokensResult = run(text);
 
-    if (lexerGeneratedTokensResult.b.strval != '\0') {
+    if (*lexerGeneratedTokensResult.b.strval != '\0') {
       printf("%s", lexerGeneratedTokensResult.b.strval);
     } else {
-      printTokensList("%s", lexerGeneratedTokensResult.a.tlval);
+      printTokensList(&lexerGeneratedTokensResult.a.tlval);
     }
   }
 }

@@ -10,6 +10,7 @@
 #include "../../utils/tuple/tuple.h"
 #include <string.h>
 #include <stdlib.h>
+#include <stdio.h>
 
 void createLexer(struct Lexer * lexer, char text[]) {
     lexer->text = text;
@@ -25,7 +26,7 @@ void advanceLexer(struct Lexer * lexer) {
 
 tuple makeTokensLexer(struct Lexer * lexer) {
     TokensList tokens;
-    initTokensList(tokens);
+    initTokensList(&tokens);
     Token lToken;
     Error lexError;
     tuple lexTokensReturn;

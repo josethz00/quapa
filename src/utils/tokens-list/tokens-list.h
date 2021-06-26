@@ -11,9 +11,9 @@
 #include "../../tokens/token.h"
 
 typedef struct {
-    Token * list;
-    size_t used;
-    size_t size;
+  Token * list;
+  size_t used;
+  size_t size;
 } TokensList;
 
 void initTokensList(TokensList *l);

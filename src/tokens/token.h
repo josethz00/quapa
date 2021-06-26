@@ -8,4 +8,3 @@ typedef struct {
 
 void createToken(Token *token, char type[], char value[]);
 char * reprToken(Token token);
-char * makeNumberLexer(struct Lexer * lexer);

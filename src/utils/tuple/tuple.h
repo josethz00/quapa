@@ -7,7 +7,7 @@ typedef struct
     float fval;
     char cval;
     char strval[200];
-    TokensList tlval
+    TokensList tlval;
 
   } a;
   union {
@@ -15,6 +15,6 @@ typedef struct
     float fval;
     char cval;
     char strval[200];
-    TokensList tlval
+    TokensList tlval;
   } b;
 } tuple;

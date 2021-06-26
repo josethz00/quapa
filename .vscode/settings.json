@@ -7,6 +7,9 @@
     "*.tsx": "typescriptreact",
     "lexer.h": "c",
     "errors.h": "c",
-    "shell.h": "c"
+    "shell.h": "c",
+    "tokens-list.h": "c",
+    "tuple.h": "c",
+    "token.h": "c"
   }
 }
